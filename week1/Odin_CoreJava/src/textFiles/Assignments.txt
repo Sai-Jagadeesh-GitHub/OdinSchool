@@ -1,0 +1,111 @@
+
+March 26th -- Saturday
+
+In Class Assignments
+##############################
+
+1) Create a java program to print your name on the console 
+
+ 
+ 2) Try to display the content like below   -- 
+stmt 1 -- I am learning core java 
+stmt 2 -- Hi User !!
+stmt 3 -- I am learning UI
+stmt 4 -- HI User !!
+
+Expected Output : 
+ I am learning core java Hi User !!
+ I am learning UI Hi User !!
+
+ 
+ 3) Write a java program to display your details
+ 
+  your name
+  gender
+  aggr
+  doorNo -- take int 
+  pinCode
+  isBTechCompleted -- boolean
+  mobile
+  
+  
+  create variables and hold values
+  
+  and then display values of variables along with some static content 
+  
+  ex : 
+  
+     My Name is Babu
+     Gender : M
+     i secured an aggregate of 7.9
+     i reside at door No : 80
+     My pinCode : 343434
+     I completed Btech : true
+     my mobile no is : 9090909090
+     
+######################################################
+
+Day 2 - Week 1 
+
+4) Write a java program to perform multiplication on 2 integer values and return integer type of value as output 
+    Write the code and run through debugging using F5, F6, F7 , F8
+    
+    
+    
+    #########################################
+5) Write a java program to display information of different movies based on input given to the method
+
+6) Write a java program to display information of males or females based on input given 
+
+    switch with char type of variable    
+       gender 
+          M 
+            --> 3 to 4 statements
+          F
+            --> 3 to 4 statements 
+    
+7) Write a java program where we have to define 3 methods 
+      method 1 ---> display information of sachin(any 3 statements) for 3 times using for loop
+      method 2 ---> display information of sehwag(any 3 statements) for 4 times using while loop
+      method 3 ---> display information of pant (any 3 statements) for 5 times using do while loop
+      
+   Note : Methods no need to take input or no need to return output  
+     
+     
+     Summary of Week - 1 
+     #################################
+        --> Introduction
+        --> Data Types
+        --> Variables
+        --> Methods
+        --> argumentTypes
+        --> return type
+        --> void
+        --> return
+        --> Conditional Statements
+        --> if else
+        --> switch -- case, break, default
+        --> Iterative statements 
+        
+        
+Week - 2
+###############################
+
+  continue
+
+  Default Values
+  
+  Arrays
+    for each
+    
+  Operators
+  
+  Strings 
+  
+  
+     
+
+
+
+        
+     

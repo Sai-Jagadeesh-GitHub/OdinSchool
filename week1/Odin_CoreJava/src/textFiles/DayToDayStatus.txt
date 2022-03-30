@@ -1,0 +1,223 @@
+
+Java -- is a server side programming language
+
+
+JVM -- Java Virtual Machine
+
+JVM is responsible to execute every java program
+
+JVM starts every java program execution from main method
+
+main method acts as starting point of every program execution
+
+
+Syntax :
+  public static void main(String[] args){
+  
+  }
+  
+System.out.println
+   -- to print output to console area from java program 
+   
+   
+#############################################################
+
+System.out.print
+  -- this statement will print the output where cursor is located and leaves cursor in same line itself
+
+
+System.out.println
+  -- this statement will print the output where cursor is located and after printing it moves cursor to next line 
+  
+  
+###############################################################
+
+Data Types and Variables
+
+  Variables  -- to hold values through a java program
+  
+  Syntax to create new variable :
+     
+     dataType variableName = value;
+     
+     int rollNo = 90;
+
+
+DataType : defines what type of data are we holding through a java variable
+
+  Numeric Data Types
+    Integral Data Types
+       int    -- can support integer number till 9 digits   -- ex : marks, id, rollNo, measurement
+       long   -- can support integer number till 15 digits  -- ex : accountNo, adhar, barCode
+    
+    Decimal Data Types
+      float -- can maintain an accuracy of only 5 digits after decimal point  -- ex : aggr, percentage, bill
+      double  -- can maintain an accuracy of 15 digits after decimal point  -- ex : pi, avg, exp, barValues
+    
+  
+  
+  Non Numeric Data Types
+      char --- to represent single character    -- ex : gender, codes, Choice
+      String -- to represent group of characters -- ex : place, country, fName
+      boolean -- to represent the result of condition either true or false -- ex : result, flag, expressionResult
+
+
+Note :
+  --> If the integer value assigned to long data type variable is crossing 9 digits then we have to end the number with L
+  --> Irrespective of what ever the decimal number we assign to variable of type as float we have to end the number with F
+  --> When we represent single character through char data type variable we have to wrap the character in between single quotations
+  --> When we represent group of characters through String data type variable we have to wrap the characters in between double quotations
+  --> boolean can hold only true or false (NOT 0, NOT 1, Not yes, Not no)
+
+  Syntax to create new variable :
+     dataType variableName = value;
+     
+  Syntax to update existing variables :
+    dataType = newValue;
+
+
+Summary : 
+   Introduction
+   System.out.print
+   System.out.println
+   dataTypes
+   Variables
+   creating new Variables
+   Updating the existing variables
+   Displaying variable values along with data within quotations
+   
+####################################################################################################################################
+ 
+ March 27th -- Sunday - Week-1
+   
+   Methods ----
+   
+   int addNumbers(int num1, int num2){
+      //
+      //
+      //
+      int result = num1 + num2;
+      return result;
+    }
+
+   methodReturnType methodName(methodArgumentType methodArgumentName){
+        //
+        //
+        //
+        return 
+    }
+
+
+   methodName --> which gives information regarding the functionality we are addressing in this method
+   methodArguments  --> defines how many no of values are we expecting as input for the method
+      methodArgumentTYpe --> based on what type of input we define method argument types
+      methodArgumentName  --> it can be any name
+  methodReturnType  --> which defines what type of data are we returning as output from the method using return keyword
+  
+  
+  return ---> predefined keyword used to return the output from the method
+
+
+  subtraction on 3 decimal values and return decimal value as output
+  
+     double subtraction(double x, double y, double z){
+          double r =  x-y-z ;
+          return r;
+     }
+
+STEP 1 -- Learning How to write a method 
+
+STEP 2 -- How to call the method from main in order to get executed
+
+STEP 3 -- Receiving the output back to main method
+
+STEP 4 -- Understanding flow of execution
+
+Note : 
+static : 
+From main method when we wish to call any other method directly using its name then respective method should be defined with a keyword called as static
+void : 
+From a method when we are not returning any value as output using return keyword then our method should be defined with void keyword
+
+
+F6 --> Line by Line execution
+F5 --> to jump into the method 
+ from a statement when we call any other method then from that statement if we have to move inside that method 
+				we have to press F5
+				
+F7 --> to come out of the method
+
+F8 --> when we reach end of program just press F8
+
+
+local variables  -- Variables which are defined within a method are called as local variables
+  --> Local variables of a method are accessible only within that method
+
+global variables  -- Variables which are defined outside method are called as global variables
+  --> global variables of a class are accessible across all the methods of a class
+
+
+Conditional Statements   -- When we wish to execute the statements within a method based on result of condition evaluation then we use conditional statements
+
+  if - else
+    if(condition){
+      // when condition result is true then statements here will get executed
+    }else{
+      // statements here will get executed
+    }
+  
+  switch  -- when we wish to execute the statements within a method based on value of variable we go for switch case
+    
+    case  --> keyword which represent every condition
+    break --> to ensure following cases should not get executed after executing matched case
+    default --> to execute some statements when the input passed is not matching to any of the cases defined 
+    
+    
+Iterative Statements  -- When we wish to write the statements once and execute them for multiple times then we go for iterative statements
+
+  for     -- when we know fixed no of iterations
+  
+  while   -- when we wish to execut the statements multiple times till a specific condition fails (where there are no fixed no of iterations)
+  
+  do while  -- for the first time if we wish to execute statements without condition check and from second time we wish to check the condition and execute 
+  					then we go for do while loop
+  
+  initialize variable -- to start iteration count --- int i=1;
+  target condition    -- till how many times we with to execute  ---- i<=3
+  increment           -- to increase by 1 for every iteration     ----- i++
+  
+  
+  
+  
+  
+  
+  
+  continue
+  
+  
+  
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
